@@ -50,6 +50,6 @@ python tsatools_normalization.py -N 20000 -r 100 -l 100 -o LMNB_on_input_20k -e 
 ```
 Three wig files will be generated after the code finish. One for the normalized TSA-seq score. The other two wig files show the signal profiles for pulldown sample and input sample under the resolution defined by -N and -r.
 
-## Thanks
+## About
 
 TSA-seq_toolkit is authored and maintained by [Yang Zhang](mailto:yzhan116@illinois.edu)
