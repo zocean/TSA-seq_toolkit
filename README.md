@@ -14,7 +14,7 @@ TSA-seq_toolkit requires:
 - numpy
 - scipy
 - bx-python
-- R (texted in R 3.0)
+- R (tested in R 3.0)
 
 ## Read Mapping
 
@@ -48,7 +48,7 @@ python tsatools_normalization.py -N 20000 -r 100 -l 100 -o LMNB_on_input_20k -e 
 # -c => bam file for matched input sample
 # -o => output file prefix
 ```
-Three wig files will be generated after the code finish. One for the normalized TSA-seq score. The other two wig files shows the signal profile for pulldown sample and input sample under the resultion defined by -N and -r.
+Three wig files will be generated after the code finish. One for the normalized TSA-seq score. The other two wig files show the signal profiles for pulldown sample and input sample under the resultion defined by -N and -r.
 
 ## Thanks
 
