@@ -40,7 +40,7 @@ We then normalized and prcessed the TSA-seq data using a sliding window approach
 
 ```shell
 # Normalized SON TSA-seq pulldown with matched input
-python tsatools_normalized.py -N 20000 -r 100 -l 100 -o LMNB_on_input_20k -e SON_TSA-seq_pulldown_rmdup.bam -c SON_TSA-seq_pulldown_input_rmdump.bam
+python tsatools_normalization.py -N 20000 -r 100 -l 100 -o LMNB_on_input_20k -e SON_TSA-seq_pulldown_rmdup.bam -c SON_TSA-seq_pulldown_input_rmdump.bam
 # -N => window size in base pair (bp)
 # -r => sliding window step (bp)
 # -l => read length (bp)
